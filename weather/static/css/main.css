@@ -1,0 +1,35 @@
+:root{
+    --Black: #011627;
+    --Red: #FF0022;
+    --Blue: #41EAD4;
+    --White: #FDFFFC;
+}
+
+body{
+    background-color: #e3e0e0;
+    color: var(--Black);
+    font-family: 'Geologica', sans-serif;
+}
+
+nav{ background: linear-gradient(90deg, rgba(255,0,34,1) -79%, rgba(65,234,212,1) 0%, rgba(183,41,221,1) 57%, rgba(255,0,34,1) 100%);
+    height: 40px;
+    padding: 6px;
+    padding-left: 10px;
+    font-size: 35px;
+    border-radius: 10px;
+    width: 40%;
+}
+
+#main{
+    margin-top: 5%;
+    border: #FDFFFC 2px solid;
+    width: 40%;
+    border-radius: 20px;
+    background-color: var(--White);
+} form{ padding: 20px; }
+
+button, input{
+    padding: 10px;
+    border-radius: 10px;
+    border: var(--White) 2px solid;
+}
